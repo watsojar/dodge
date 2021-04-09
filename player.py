@@ -32,9 +32,9 @@ class Player:
     def playerDie(self):
         self.rect.x = 5000  # move off the screen
         self.rect.y = 5000
-        self.velx = self.vely = 5
 
     def playerReset(self):
         self.health = 3
         self.rect.x = WIDTH // 2
         self.rect.y = HEIGHT // 2
+        self.velx = self.vely = 5
